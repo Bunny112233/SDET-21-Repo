@@ -22,4 +22,11 @@ public class OrgTest
 	{
 		System.out.println("execute DeleteOrgTest");
 	}
+	
+	@Test(groups="SmokeSuite")
+	public void SearchOrgTest()
+	{
+		System.out.println("execute SearchOrgTest");
+	}
+	
 }
