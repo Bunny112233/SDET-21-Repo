@@ -8,6 +8,10 @@ public class OrgTest
 	@Test(groups="RegressionSuite")
 	public void CreateOrgTest()
 	{
+		String url = System.getProperty("url");
+		String BROWSER = System.getProperty("browser");
+		System.out.println(url);
+		System.out.println(BROWSER);
 		System.out.println("execute CreateOrgTest");
 	}
 	
